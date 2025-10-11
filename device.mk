@@ -58,6 +58,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Copy modules into initramfs /sbin
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*.ko,$(COMMON_PATH)/prebuilt/modules,$(TARGET_COPY_OUT_RECOVERY)/root/sbin)
 
+# trying to workaround a build failure with 14.1 branch - did not help - copy the file manually there :-(
+#PRODUCT_COPY_FILES += $(COMMON_PATH)/recovery/task_profiles.json:$(TARGET_COPY_OUT)/system/etc/task_profiles.json
+
 # Prebuit files for recovery ramdisk
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(COMMON_PATH)/recovery/root,$(TARGET_COPY_OUT_RECOVERY)/root)

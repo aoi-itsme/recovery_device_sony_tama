@@ -21,11 +21,11 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_akatsuki.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_akari-eng \
-    twrp_akari-userdebug \
-    twrp_apollo-eng \
-    twrp_apollo-userdebug \
-    twrp_aurora-eng \
-    twrp_aurora-userdebug \
-    twrp_akatsuki-eng \
-    twrp_akatsuki-userdebug
+    twrp_akari-ap2a-eng \
+    twrp_akari-ap2a-userdebug \
+    twrp_apollo-ap2a-eng \
+    twrp_apollo-ap2a-userdebug \
+    twrp_aurora-ap2a-eng \
+    twrp_aurora-ap2a-userdebug \
+    twrp_akatsuki-ap2a-eng \
+    twrp_akatsuki-ap2a-userdebug
