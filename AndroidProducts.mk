@@ -15,17 +15,17 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_akari.mk \
-    $(LOCAL_DIR)/twrp_apollo.mk \
-    $(LOCAL_DIR)/twrp_aurora.mk \
-    $(LOCAL_DIR)/twrp_akatsuki.mk
+    $(LOCAL_DIR)/pb_akari.mk \
+    $(LOCAL_DIR)/pb_apollo.mk \
+    $(LOCAL_DIR)/pb_aurora.mk \
+    $(LOCAL_DIR)/pb_akatsuki.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_akari-eng \
-    twrp_akari-userdebug \
-    twrp_apollo-eng \
-    twrp_apollo-userdebug \
-    twrp_aurora-eng \
-    twrp_aurora-userdebug \
-    twrp_akatsuki-eng \
-    twrp_akatsuki-userdebug
+    pb_akari-eng \
+    pb_akari-userdebug \
+    pb_apollo-eng \
+    pb_apollo-userdebug \
+    pb_aurora-eng \
+    pb_aurora-userdebug \
+    pb_akatsuki-eng \
+    pb_akatsuki-userdebug
